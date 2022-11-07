@@ -1,0 +1,21 @@
+body {
+    background-color: #ECF0F1;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+section {
+    margin: 25px;
+}
+
+#moyenne p {
+    color: red;
+    font-size: 25px;
+}

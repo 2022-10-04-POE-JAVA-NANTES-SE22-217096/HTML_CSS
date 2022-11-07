@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Ceci est une page !</title>
-    </head>
 
-    <body>
+<head>
+    <title>Ceci est une page !</title>
 
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <div id="zone1">
         <!-- Ceci est un commentaire -->
         <h1>MA PREMIERE PAGE !!</h1>
         <br />
@@ -15,15 +19,16 @@
         <h5>MA PREMIERE PAGE !!</h5>
         <h6>MA PREMIERE PAGE !!</h6>
 
-        <ul>
+        <ul class="test">
             <li>One</li>
             <li>Two</li>
         </ul>
 
         <a href="https://cleverdev.fr" target="_blank"> Un site </a>
 
-        <br/>
-
+        <br />
+    </div>
+    <div id="zone2">
         <table border="1" align="center">
             <thead>
                 <th colspan="2">Colonne 1</th>
@@ -52,7 +57,11 @@
             </tbody>
         </table>
 
-        <form name="form1" method="post" >
+        <form name="form1" method="post" class="test">
+
+            <div>
+                <h3>Test 2</h3>
+            </div>
 
             <label for="mySelect">Mon premier selecteur</label>
             <select id="mySelect" name="mySelect">
@@ -64,9 +73,10 @@
             <label for="myCheckbox">Ma premiere checkbox</label>
             <input id="myCheckbox" name="myCheckbox" type="checkbox" />
 
-            <input type="submit" >Envoyer</input>
-            <input type="reset" >Reset</input>
+            <input type="submit">Envoyer</input>
+            <input type="reset">Reset</input>
         </form>
+    </div>
+</body>
 
-    </body>
 </html>
