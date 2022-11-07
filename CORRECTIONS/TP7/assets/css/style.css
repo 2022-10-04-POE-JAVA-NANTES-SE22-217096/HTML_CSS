@@ -1,0 +1,41 @@
+body {
+    background-color: #ECF0F1;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+form {
+    width: 300px;
+    border: 1px solid;
+}
+
+form label:not(#actifLabel) {
+    font-weight: bold;
+}
+
+form div {
+    margin: 15px;
+    display: block;
+}
+
+form span {
+    display: inline;
+    font-weight: bold;
+}
+
+form .submitSection {
+    text-align: right;
+}
+
+form .submitSection input {
+    cursor: pointer;
+}
+a {
+    color: green;
+}
+a:hover {
+    color: red;
+}

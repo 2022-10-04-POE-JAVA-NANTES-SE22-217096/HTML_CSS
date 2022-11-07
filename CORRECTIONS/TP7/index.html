@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRM</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <link rel="icon" href="assets/images/favicon.ico" />
+    </head>
+
+    <body>
+        <h1>Application CRM</h1>
+        <h2>Ajouter un client</h2>
+
+        <form name="ajoutClient" method="POST">
+            <div>
+                <label for="nom">Nom</label>
+                <br/>
+                <input id="nom" name="nom" type="text" />
+            </div>
+            
+            <div>
+                <label for="prenom">Prenom</label>
+                <br/>
+                <input id="prenom" name="prenom" type="text" />
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <br/>
+                <input id="password" name="password" type="password" />
+            </div>
+
+            <div>
+                <label for="civilite">Civilité</label>
+                <br/>
+                <select id="civilite" name="civilite">
+                    <option value="mr">Mr</option>
+                    <option value="mme">Mme</option>
+                    <option value="melle">Melle</option>
+                </select>
+            </div>
+
+            <div>
+                <span>Statut : </span>
+                <label id="actifLabel" for="actif">Actif</label>
+                <input id="actif" name="actif" type="checkbox" checked />
+                <br/>
+            </div>
+
+            <div class="submitSection">
+                <input type="submit" value="Valider">  
+            </div>
+
+        </form>
+        
+        <a href="index.html">Page d'accueil</a>
+    </body>
+</html>
