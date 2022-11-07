@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRM</title>
+        <link rel="icon" href="images/favicon.ico" />
+    </head>
+
+    <body>
+        <h1 align="center">CRM</h1>
+        <h2>Ajouter un client</h2>
+
+        <form name="ajoutClient" method="POST">
+            <label for="nom">Nom</label>
+            <input id="nom" name="nom" type="text" />
+            <br/>
+
+            <label for="prenom">Prenom</label>
+            <input id="prenom" name="prenom" type="text" />
+            <br/>
+
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" />
+            <br/>
+
+            <label for="civilite">Civilité</label>
+            <select id="civilite" name="civilite">
+                <option value="mr">Mr</option>
+                <option value="mme">Mme</option>
+                <option value="melle">Melle</option>
+            </select>
+            <br/>
+
+            <label for="actif">Actif</label>
+            <input id="actif" name="actif" type="checkbox" checked />
+            <br/>
+
+            <input type="submit" value="Envoyer"> 
+            <input type="reset" value="Reinitialiser"> 
+        </form>
+        
+        <a href="index.html">Page d'accueil</a>
+    </body>
+</html>
