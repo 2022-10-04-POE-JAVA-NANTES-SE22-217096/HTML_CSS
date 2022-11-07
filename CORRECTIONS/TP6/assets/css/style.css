@@ -34,13 +34,13 @@ footer {
     height: 200px;
 }
 
-.img_CRM {
+.img_CRM_absolute {
     position: absolute;
     top: 5px;
     left: 5px;
 }
 
-.img_CRM2 {
+.img_CRM_fixed {
     position: fixed;
     top: 5px;
     right: 5px;
