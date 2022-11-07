@@ -1,0 +1,47 @@
+body {
+    background-color: #ECF0F1;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+section {
+    margin: 25px;
+    height: 400px;
+}
+
+section p {
+    position: relative;
+    top: -38px;
+    left: 120px;
+}
+
+#moyenne p {
+    color: red;
+    font-size: 25px;
+    top: -50px;
+}
+
+footer {
+    background-color: rgb(211, 211, 56);
+    height: 200px;
+}
+
+.img_CRM {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.img_CRM2 {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
