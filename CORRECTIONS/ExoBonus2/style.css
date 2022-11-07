@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    min-width: 300px;
+    height: 100px;
+}
+
+.containerv2 {
+    min-width: 300px;
+    height: 50px;
+}
+
+.container1 {
+    background-color: red;
+}
+
+.container2 {
+    background-color: blue;
+}
+
+.container3 {
+    background-color: violet;
+}
+
+.container4 {
+    background-color: green;
+}
+
+.container5 {
+    background-color: yellow;
+}
+
+.container6 {
+    background-color: red;
+}
+
+.container7 {
+    background-color: blue;
+}
+
+.container8 {
+    background-color: violet;
+}
+
+.container9 {
+    background-color: green;
+}
+
+.container10 {
+    background-color: yellow;
+}
